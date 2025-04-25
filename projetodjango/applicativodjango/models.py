@@ -12,4 +12,3 @@ class Pesagem(models.Model):
     id_pesagem = models.BigIntegerField(primary_key=True) #Chave Primaria
     data_pesagem = models.DateField()
     peso = models.FloatField()
-
